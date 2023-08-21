@@ -3,10 +3,10 @@ ftfy
 numpy
 pandas
 Pillow
-pytorch_lightning
+pytorch_lightning==1.9.5
 scikit-learn
 shap
 torch
-torchmetrics
+torchmetrics==0.9.3
 transformers
 wandb
