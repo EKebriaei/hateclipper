@@ -8,12 +8,12 @@ python3 main.py --dataset original \
     --num_mapping_layers 1 \
     --map_dim 32 \
     --fusion cross \
-    --num_pre_output_layers 1 \
+    --num_pre_output_layers 3 \
     --drop_probs 0.2 0.4 0.1 \
     --freeze_image_encoder t \
     --freeze_text_encoder t \
-    --gpus '4' \
-    --batch_size 16 \
+    --gpus '0' \
+    --batch_size 32 \
     --lr 0.0001 \
     --weight_image_loss 0 \
     --weight_text_loss 0 \
